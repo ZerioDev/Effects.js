@@ -57,4 +57,8 @@ client.on('messageCreate', (message) => {
 client.login('');
 ```
 
+### ⚡️ Available features
+
+Find the features available on the [GitHub](https://github.com/ZerioDev/Effects.js/tree/main/testing) page of the project.
+
 Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
