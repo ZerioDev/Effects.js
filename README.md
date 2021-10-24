@@ -11,13 +11,19 @@ A simple module to add effects to your pictures 🎨
 Add a blur filter to an image ? It's possible and easy !
 
 ```js
-const { Blur } = require('../methods');
+const { Blur } = require('effects-gallery.js');
 
 new Blur()
     .setImage('./img.png')
     .setLevel(5)
     .write('./new.png')
     .build().then(console.log('Saved'))
+
+new Blur({
+    file: './new.png',
+    level: 5,
+    image: './img.png'
+}).build().then(console.log('Saved'))
 ```
 
 Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
