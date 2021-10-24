@@ -26,7 +26,7 @@ new Blur({
 }).build().then(console.log('Saved'))
 ```
 
-Simple Discord example
+Simple Discord example (discord.js v13)
 
 ```js
 const { Blur } = require('effects-gallery.js');
@@ -52,7 +52,7 @@ client.on('messageCreate', (message) => {
                 ]
             })
         })
-})
+});
 
 client.login('');
 ```
