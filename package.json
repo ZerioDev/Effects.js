@@ -1,0 +1,25 @@
+{
+  "name": "effects-gallery.js",
+  "version": "1.0.0",
+  "description": "A simple module to add effects to your pictures",
+  "main": "methods.js",
+  "author": "ZerioDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZerioDev/Effects.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ZerioDev/Effects.js/issues"
+  },
+  "homepage": "https://github.com/ZerioDev/Effects.js#readme",
+  "keywords": [
+    "generation",
+    "manipulation",
+    "effects",
+    "discord"
+  ],
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
