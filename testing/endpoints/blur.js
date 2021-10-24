@@ -1,4 +1,4 @@
-const { Blur } = require('../methods');
+const { Blur } = require('../../methods');
 
 new Blur()
     .setImage('./img/avatar.jpg')
