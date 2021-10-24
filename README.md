@@ -20,9 +20,9 @@ new Blur()
     .build().then(console.log('Saved'))
 
 new Blur({
-    image: './img.png'
+    image: './img.png',
     level: 5,
-    file: './new.png',
+    file: './new.png'
 }).build().then(console.log('Saved'))
 ```
 
