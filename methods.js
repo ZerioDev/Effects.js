@@ -1,3 +1,4 @@
 module.exports = {
-    Blur: require('./src/Blur')
+    Blur: require('./src/Blur'),
+    Greyscale: require('./src/Greyscale')
 };
