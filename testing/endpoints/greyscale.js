@@ -1,4 +1,4 @@
-const { Greyscale } = require('../methods');
+const { Greyscale } = require('../../methods');
 
 new Greyscale()
     .setImage('./img/avatar.jpg')
