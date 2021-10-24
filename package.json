@@ -1,6 +1,6 @@
 {
   "name": "effects-gallery.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple module to add effects to your pictures",
   "main": "methods.js",
   "author": "ZerioDev",
