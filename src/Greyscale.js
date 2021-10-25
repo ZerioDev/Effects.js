@@ -4,7 +4,7 @@ class Greyscale {
     constructor(data = {}) {
         this.res = null;
         this.file = data.file ?? null;
-        this.image = data.image ?? null;
+        this.image = data.image;
     }
 
     write(file) {
@@ -13,6 +13,8 @@ class Greyscale {
     }
 
     setImage(img) {
+        if (!img) throw new Error('You must provide an picture in the setImage() section');
+
         this.image = img;
         return this;
     }

@@ -4,7 +4,7 @@ class Blur {
     constructor(data = {}) {
         this.res = null;
         this.file = data.file ?? null;
-        this.image = data.image ?? null;
+        this.image = data.image;
         this.level = data.level ?? 5;
     }
 
@@ -14,6 +14,8 @@ class Blur {
     }
 
     setImage(img) {
+        if (!img) throw new Error('You must provide an picture in the setImage() section');
+
         this.image = img;
         return this;
     }
