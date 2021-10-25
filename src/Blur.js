@@ -21,13 +21,17 @@ class Blur {
     }
 
     setLevel(number) {
+        const value = parseInt(number);
+
+        if (!value || value <= 0 || value > 20) return this;
+
         this.level = number;
         return this;
     }
 
     async build() {
         this.res = await jimp.read(this.image);
-        this.res.blur(isNaN(this.level) ? 5 : parseInt(this.level));
+        this.res.blur(Number(this.level));
 
         this.file ? await this.res.write(this.file) : null;
 
